@@ -20,8 +20,28 @@ body {
   font-family: "Poppins", sans-serif;
   padding: 32px;
 }
+
+main{
+  font-size: 0;
+}
+
 .header {
   width: 311px;
+  
+}
+@media screen and (min-width:768px) {
+  .header{
+    position: absolute;
+    left: 450px;
+    top: 80px;
+    width: 540px;
+    height: 168px;
+    text-align: center;
+  }
+
+
+
+  
 }
 .title {
   font-weight: 200;
@@ -59,17 +79,49 @@ body {
   padding: 28px;
   margin-bottom: 25px;
 }
+
 .box-green {
   border-top: 8px solid #00c8c8;
+}
+@media screen and (min-width:768px) {
+  .box-green{
+    position: absolute;
+    left: 165px;
+    top: 452px;
+  }
+  
 }
 .box-red {
   border-top: 8px solid #ff637b;
 }
+@media screen and (min-width:768px) {
+  .box-red{
+    position: absolute;
+    left: 545px;
+    top: 312px;
+  }
+}
 .box-yellow {
   border-top: 8px solid #fcae4a;
 }
+@media screen and (min-width:768px) {
+  .box-yellow{
+    position: absolute;
+    left:545px ;
+    top: 592px;
+  }
+  
+}
 .box-blue {
   border-top: 8px solid #549ef2;
+}
+@media screen and (min-width:768px) {
+  .box-blue{
+    position: absolute;
+    left: 925px;
+    top: 452px;
+  }
+  
 }
 .title-card {
   font-weight: 600;
